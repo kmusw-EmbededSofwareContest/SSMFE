@@ -1,16 +1,22 @@
-# studysmartmate
+📱 SSM 로그인 전용 앱
 
-A new Flutter project.
+이 애플리케이션은 SSM 프로그램을 사용하기 위한 로그인 전용 앱입니다. 사용자는 간편하게 카카오톡으로 로그인한 뒤, QR 코드 스캔 또는 수동 고유번호 입력을 통해 자신의 기기에 접속할 수 있습니다.
 
-## Getting Started
+✨ 주요 기능
+•	카카오톡 로그인: 카카오 계정을 통해 손쉽게 인증
+•	QR 코드 스캔: 지정된 기기의 QR 코드를 스캔하여 빠르게 로그인
+•	수동 고유번호 입력: QR 스캔이 어려운 경우, 고유번호를 직접 입력해 로그인 가능
+•	자동 연결: 로그인 후, 사용자가 지정한 기기로 즉시 연결
 
-This project is a starting point for a Flutter application.
+🛠 기술 스택
+•	Flutter: 멀티 플랫폼 UI 프레임워크
+•	GetX: 상태관리 및 라우팅
+•	mobile_scanner: QR 코드 인식
+•	kakao_flutter_sdk: 카카오톡 OAuth 로그인
+•	Dart: 앱 로직 및 상태 관리
 
-A few resources to get you started if this is your first Flutter project:
+🖼 화면 미리보기
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+|                    로그인 화면                     |                   QR 스캔 화면                   |                    수동 입력 화면                     |                         접속 완료 화면                          |
+|:---------------------------------------------:|:--------------------------------------------:|:-----------------------------------------------:|:---------------------------------------------------------:|
+| ![login](./assets/screenshots/login_page.png) | ![qr](./assets/screenshots/qr_scan_page.png) | ![manual](./assets/screenshots/manual_page.png) | ![complete](./assets/screenshots/login_complete_page.png) |
